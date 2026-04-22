@@ -12,7 +12,7 @@
  * botões play/stop (para que o elemento se revele lentamente)
  */
  #controles ul {
-
+  transition-duration: 800ms;
  }
 
 /*
@@ -24,7 +24,8 @@
  *   - atacando: animal dá um salto e cresce, com uma borda vermelha
  */
 .com-fome {
-
+  opacity: 5%;
+  transition: opacity 100ms ;
 }
 
 .satisfeito {
